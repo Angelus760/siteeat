@@ -1,0 +1,22 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelus760/siteeat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelus760/siteeat/issues"
+  },
+  "homepage": "https://github.com/Angelus760/siteeat#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}

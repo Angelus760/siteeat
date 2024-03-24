@@ -1,0 +1,411 @@
+
+@font-face {
+	font-family: 'versus-ultra_RUS_BY_LYAJKAs'; 
+	src: local('versus-ultra_RUS_BY_LYAJKA'),
+    url(versus/versus-ultra_RUS_BY_LYAJKA.otf)
+}
+@font-face {
+	font-family: 'Inter-Black'; 
+	src: local('Inter-Black'),
+    url(inter/Inter-Black.otf)
+}
+@font-face {
+	font-family: 'Inter-Bold'; 
+	src: local('Inter-Bold'),
+    url(inter/Inter-Bold.otf)
+}
+@font-face {
+	font-family: 'Inter-Regular'; 
+	src: local('Inter-Regular'),
+    url(inter/Inter-Regular.otf)
+}
+@font-face {
+	font-family: 'Inter-SemiBold'; 
+	src: local('Inter-SemiBold'),
+    url(inter/Inter-SemiBold.otf)
+}
+
+html{
+    
+}
+body{
+    margin: 0px;
+}
+
+.container{
+    width:100%;
+    max-width: 80%;
+    margin: 0% auto;
+    position: relative;
+    
+}
+.head{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 15%;
+    width: 15%;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vk{
+    height: 45px;
+    width: 45px;
+    padding-right: 20px;
+}
+.telegram{
+    height: 39px;
+    width: 39px;
+    padding-left: 20px;
+}
+
+button{
+    width: 240px;
+    height: 65px;
+    border: 0;
+    border-radius: 30px;
+    line-height: 2.5;
+ 
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+ 
+    background-color: #CCFF00;
+    margin-left: 110px;
+    cursor: pointer;
+    font-family: 'Inter-Bold'; 
+}
+button:hover {
+    background-color: #5F259F; /* Цвет фона при наведении */
+    color: white;
+   }
+button:active {
+    background-color: #4d1c82; /* цвет активной кнопки */
+    color: white;
+}
+.text_H1{
+    font-family: 'versus-ultra_RUS_BY_LYAJKAs'; 
+ 
+    font-size: 64px;
+    width: 1100px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    align-items: center;
+}
+.mockup_1{
+    height: 30%;
+    width: 30%;
+}
+
+.text_main{
+    font-family: 'Inter-Regular'; 
+    font-size: 24px;
+    width: 1100px;
+    line-height: 1.5;
+    padding-top: 40px;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+
+}
+.parent {
+    margin-top: 120px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1750px;
+    height: 585px;
+    border-radius: 50px;
+    background: #272727;
+    box-shadow: 0px 20px 20px #888888;
+}
+
+.child{
+    font-family: 'versus-ultra_RUS_BY_LYAJKAs'; 
+    
+    font-size: 64px;
+    color: white;
+    padding-left: 110px;
+}
+.text-2{
+    font-family: 'Inter-Regular'; 
+    font-size: 24px;
+    padding-left: 110px;
+    color: white;
+    padding-top: 70px;
+}
+.points-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 30px;
+    padding-bottom: 75px;
+
+}
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle {
+    width: 20px;
+    height:20px;
+    border-radius: 25px;
+    background:#CCFF00 ;
+}
+.text-points{
+    font-family: 'Inter-Regular'; 
+    font-size: 24px;
+    color: white;
+    padding-left: 15px;
+}
+.mockup_2{
+    width: 630px;
+    height: 500px;
+    padding-right: 110px;
+    
+}
+
+.line-1{
+    height: 70px;
+    width: 100%;
+    background-color: #CCFF00;
+    rotate: 5deg;
+    margin-top: 100px;
+ 
+
+}
+.line-2{
+    height: 70px;
+    width: 100%;
+    background-color: #5F259F;
+    rotate: -7deg;
+    display: flex;
+    align-items: center;
+    
+
+}
+.marquee {
+    rotate: -5deg;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 2500px;
+    align-items: center;
+    background-color: #5F259F;
+    height: 90px;
+  }
+  
+ 
+
+  .js-marquee{
+    margin: 0;
+    padding: 0;
+
+  }
+  .marquee-container{
+    
+    
+  }
+  #rectangle{
+    position: absolute;
+    width: 2500px;
+   
+    height:90px;
+    background:#CCFF00;
+    rotate: 5deg;
+  
+}
+
+.flex{
+    display: flex;
+        
+}
+
+.H1{
+    font-family: 'versus-ultra_RUS_BY_LYAJKAs'; 
+    font-size: 64px;
+    padding-top: 240px;
+    
+}
+
+.parent-2 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+  
+    width: 480px;
+    height: 420px;
+    border-radius: 50px;
+    background: #272727;
+    box-shadow: 0px 20px 20px #888888;
+    transition: 1s;
+}
+.parent-2:hover {
+    transform: scale(1.1);
+    transition: 1s ;
+}
+.flex-four{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.H-caps{
+    font-family: 'versus-ultra_RUS_BY_LYAJKAs'; 
+    font-size: 225px;
+    color: white;
+    height: 250px;
+}
+.flex-parent-2{
+    display: flex;
+    
+}
+
+.H1-caps{
+    font-family: 'versus-ultra_RUS_BY_LYAJKAs'; 
+    font-size: 32px;
+    color: white;
+}
+.text-parent-2{
+    font-family: 'Inter-Regular'; 
+    font-size: 22px;
+    color: white;
+    padding-top: 20px;
+}
+.parent-3 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    
+    width: 480px;
+    height: 420px;
+    border-radius: 50px;
+    background: #272727;
+    box-shadow: 0px 20px 20px #888888;
+    
+}
+.parent-3:hover {
+    transform: scale(1.1);
+    transition: 1s ;
+}
+.parent-4 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+
+    
+    width: 480px;
+    height: 420px;
+    border-radius: 50px;
+    background: #272727;
+    box-shadow: 0px 20px 20px #888888;
+}
+.parent-4:hover {
+    transform: scale(1.1);
+    transition: 1s ;
+}
+.text-parent-3{
+    font-family: 'Inter-Regular'; 
+    font-size: 22px;
+    color: white;
+    padding-top: 20px;
+}
+.container-parent{
+    display: flex;
+    flex-direction: column;
+   
+}
+.H2{
+    font-family: 'versus-ultra_RUS_BY_LYAJKAs'; 
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+
+.five {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1750px;
+    height: 942px;
+    border-radius: 50px;
+    background: #272727;
+    box-shadow: 0px 20px 20px #888888;
+}
+
+.mockup_3{
+    width: 360px;
+    height: 700px;
+    padding-right: 110px;
+    
+}
+
+.text-block-2{
+    width: 900px;
+  
+}
+.text-2-2{
+    font-family: 'Inter-Regular'; 
+    font-size: 24px;
+    padding-left: 110px;
+    color: white;
+    padding-top: 40px;
+}
+.flex-application{
+    display: flex;
+    justify-content: center;
+    padding-left: 110px;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.but{
+    height: 105px;
+    width: 360px;
+    background-color: #484848;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.but:hover{
+    background-color: #373737;
+}
+.line{
+    border-bottom: 0.5px solid #6e6e6e;
+    width: 100%;
+    padding-top: 40px;
+    
+}
+
+.footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:80px ;
+    padding-bottom: 80px;
+}
